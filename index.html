@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Semantic UI Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="dist/semantic.min.js"></script>
+
+</head>
+<body>
+
+
+      <!--side bar-->
+      <div class="vertical sidebar stackable vertical left menu ui">
+          <div class="item">Call</div>
+          <div class="item">Message</div>
+          <div class="item">Whatsapp</div>
+          <div class="item">Skype</div>
+          <div class="item">Hike</div>
+      </div>
+
+      <div class="ui basic stackable top fixed menu">
+        <a href="#" id="toggle" class="item">
+        <i class="sidebar icon"></i>
+        </a>
+        Menu
+      </div>
+
+      <div class="pusher">
+
+          <div class="ui container">
+            <!--button-->
+            <div class="ui buttons">
+              <button class="ui red button"><i class="play icon"></i></button>
+              <button class="ui  red button"><i class="pause icon"></i></button>
+              <button class="ui red button"><i class="stop icon"></i></button>
+            </div>
+
+            <button class="ui button animated">
+                 <span class="visible content">Hi!</span>
+                 <span class="hidden content">Hello!</span>
+            </button>
+
+            <button class="ui loading button small">Loading</button>
+
+          <br/>
+          <br/>
+
+
+            <!--grid-->
+            <div class="ui grid">
+              <div class="four column row">
+                <div class="red column">
+                  <button class="ui fluid button"></button>
+                </div>
+                <div class="red column">
+                  <button class="ui fluid button"></button>
+                </div>
+                <div class="red column">
+                  <button class="ui fluid button"></button>
+                </div>
+                <div class="red column">
+                  <button class="ui fluid button"></button>
+                </div>
+                </div>
+            </div>
+
+              <br/>
+            <!--flags and icons-->
+            <h>I <i class=" empty heart icon"></i> <i class="in flag"></i></h>
+
+                  <br/>
+            <!--forms and input-->
+            <div class="ui form">
+              <div class="eight wide field">
+                <div class="field inline">
+                  <label for="firstname">First Name</label>
+                  <input type="text" name="firstname" placeholder="firstName">
+                </div>
+                <div class="field">
+                  <label for="lastname">LastName</label>
+                  <input type="text" name="lastname" placeholder="lastName">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="ui form">
+              <div class="two fields">
+                <div class="field">
+                  <label for="firstname">First Name</label>
+                  <input type="text" name="firstname" placeholder="firstName">
+                </div>
+                <div class="field">
+                  <label for="lastname">LastName</label>
+                  <input type="text" name="lastname" placeholder="lastName">
+                </div>
+              </div>
+            </div>
+
+
+            <!-- menu -->
+            <div class="ui menu">
+              <div class="item">
+                Home
+              </div>
+              <div class="active teal item">
+                About Us
+              </div>
+              <div class="item">
+                Sing in
+              </div>
+            </div>
+
+            <div class="ui vertical menu">
+              <div class="item">
+                Home
+              </div>
+              <div class="active teal item">
+                About Us
+              </div>
+              <div class="item">
+                Sing in
+              </div>
+            </div>
+
+            <div class="ui icon menu">
+              <div class="item">
+                <i class="home icon"></i>
+              </div>
+              <div class="active teal item">
+                <i class="info icon"></i>
+              </div>
+              <div class="item">
+                <i class="sign in icon"></i>
+              </div>
+            </div>
+
+            <div class="ui labeled icon menu">
+              <div class="item">
+                <i class="home icon"></i>
+                Home
+              </div>
+              <div class="active teal item">
+                <i class="info icon"></i>
+                Info
+              </div>
+              <div class="item">
+                <i class="sign in icon"></i>
+                Sign In
+              </div>
+            </div>
+
+            <div class="ui compact labeled icon menu">
+              <div class="item">
+                <i class="home icon"></i>
+                Home
+              </div>
+              <div class="active teal item">
+                <i class="info icon"></i>
+                Info
+              </div>
+              <div class="item">
+                <i class="sign in icon"></i>
+                Sign In
+              </div>
+            </div>
+
+            <br/><br/>
+            <!--pagination-->
+            <div class="ui pagination fluid menu">
+              <div class="active red item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+              <div class="item">4</div>
+              <div class="disabled item">...</div>
+              <div class="item">10</div>
+            </div>
+          <br/>
+            <!--accordian-->
+            <div class="ui styled fluid accordion">
+              <div class="active title">
+                <i class="dropdown icon"></i>
+                Where is Salem?
+              </div>
+              <div class="active content">
+                Tamil Nadu.
+              </div>
+              <div class="title">
+                <i class="dropdown icon"></i>
+                Where is Bengaluru?
+              </div>
+              <div class="content">
+                Karnataka.
+              </div>
+              <div class="title">
+                <i class="dropdown icon"></i>
+                Where is Kochi?
+              </div>
+              <div class="content">
+                Kerala.
+              </div>
+            </div>
+        </div>
+
+          <!--Dimmer-->
+          <div class="ui segment large" style="width:100px;height:100px">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                  <div class="ui inverted icon header">
+                    <i class="warning icon"></i>
+                    Warning
+                  </div>
+                </div>
+                </div>
+              </div>
+          </div>
+
+
+          <button id="toggle1" class="ui massve button">Show</button>
+            <button id="toggle2" class="ui massve button">Hide</button>
+
+
+              <!-- Modals -->
+              <div class="ui segment large" style="width:200px;height:200px">
+              <div class="ui modal">
+                <div class="header">Hi</div>
+                <div class="content">Hello How are you?</div>
+                <div class="actions">
+                  <button class="ui green approve button">Approve</button>
+                  <button class="ui red cancel button">Cancel</button>
+                </div>
+              </div>
+              </div>
+
+      </div>
+
+<script>
+    $('.ui.accordion').accordion();
+    $('#toggle1').click(function(){
+    $('.ui.dimmer').dimmer("show");})
+    $('#toggle2').click(function(){
+    $('.ui.dimmer').dimmer("hide");})
+    $('.ui.modal').modal('show');
+    $('#toggle').click(function(){
+      $('.ui.sidebar').sidebar('toggle');
+    })
+
+</script>
+  <!--
+  <button class="ui secondary button">
+    Okay
+  </button>
+  <button class="ui button">
+    Cancel
+  </button>
+  <div class="ui one column center aligned grid">
+  <div class="column six wide form-holder">
+    <h2 class="center aligned header form-head">Sign in</h2>
+    <div class="ui form">
+      <div class="field">
+        <input type="text" placeholder="username">
+      </div>
+      <div class="field">
+        <input type="password" placeholder="password">
+      </div>
+      <div class="field">
+        <input type="submit" value="sign in" class="ui button large fluid green">
+      </div>
+      <div class="inline field">
+        <div class="ui checkbox">
+          <input type="checkbox">
+          <label>Remember me</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+</body>
+</html>
